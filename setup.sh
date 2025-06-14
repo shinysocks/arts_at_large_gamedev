@@ -12,10 +12,12 @@ python3 -m pip install .
 
 # install vscode
 cd ./bin/
-curl -O "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
-unzip *.zip
+curl -L -o vsc.zip "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
+unzip vsc.zip
 
 # https://code.visualstudio.com/docs/editor/portable
 # un-quarantine vscode app
-xattr -dr com.apple.quarantine Visual\ Studio\ Code.app
+xattr -dr com.apple.quarantine Visual\ Studio\ Code.app && rm -rf vsc.zip
+
+open Visual\ Studio\ Code.app
 
