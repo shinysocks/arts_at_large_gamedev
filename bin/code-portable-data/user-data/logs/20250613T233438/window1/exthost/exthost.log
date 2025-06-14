@@ -1,0 +1,60 @@
+2025-06-13 23:34:39.702 [info] Extension host with pid 11175 started
+2025-06-13 23:34:39.711 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 23:34:39.746 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-13 23:34:39.749 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-13 23:34:39.770 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-13 23:34:39.898 [info] Eager extensions activated
+2025-06-13 23:34:39.901 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:34:39.902 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:34:49.699 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 23:35:19.908 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 23:35:19.917 [info] Extension host with pid 11175 exiting with code 0
+2025-06-13 23:35:20.497 [info] Extension host with pid 11398 started
+2025-06-13 23:35:20.497 [info] Skipping acquiring lock for /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/user-data/User/workspaceStorage/8994e7a37db4fc152644cd4472d656aa.
+2025-06-13 23:35:20.503 [info] Eager extensions activated
+2025-06-13 23:35:23.883 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:35:23.887 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-06-13 23:35:23.889 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 23:35:23.902 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:35:23.915 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-13 23:35:24.038 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-06-13 23:35:24.065 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-06-13 23:35:24.342 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 23:35:25.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5190
+2025-06-13 23:35:25.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5565
+2025-06-13 23:35:26.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6736
+2025-06-13 23:35:29.319 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-13 23:35:31.690 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11533
+2025-06-13 23:36:29.306 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-06-13 23:36:29.523 [error] TypeError: Cannot read properties of undefined (reading 'toString')
+	at /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/dist/extension.js:2:849866
+	at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:52:12)
+2025-06-13 23:37:04.224 [error] [ms-python.python] provider FAILED
+2025-06-13 23:37:04.224 [error] Error: AttributeError: 'str' object has no attribute 'suffix'
+	at ae (/Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/out/client/extension.js:2:1962784)
+	at oe (/Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/out/client/extension.js:2:1960744)
+	at Immediate.<anonymous> (/Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/out/client/extension.js:2:1957038)
+	at process.processImmediate (node:internal/timers:485:21)
+2025-06-13 23:39:01.957 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:39:01.974 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:39:02.008 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:41:20.152 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 23:41:20.177 [info] Extension host with pid 11398 exiting with code 0
+2025-06-13 23:41:20.599 [info] Extension host with pid 14726 started
+2025-06-13 23:41:20.599 [info] Skipping acquiring lock for /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/user-data/User/workspaceStorage/8994e7a37db4fc152644cd4472d656aa.
+2025-06-13 23:41:20.605 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-13 23:41:20.619 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-13 23:41:20.628 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-13 23:41:20.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-06-13 23:41:20.716 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:41:20.721 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:41:20.745 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-13 23:41:20.844 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-06-13 23:41:21.277 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-13 23:41:21.318 [info] Eager extensions activated
+2025-06-13 23:41:21.324 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:41:21.326 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-13 23:41:21.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-13 23:41:22.279 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-13 23:47:40.983 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 23:47:40.998 [info] Extension host with pid 14726 exiting with code 0

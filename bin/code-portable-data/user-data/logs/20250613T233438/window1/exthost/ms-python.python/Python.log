@@ -1,0 +1,65 @@
+2025-06-13 23:35:24.331 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-06-13 23:35:24.331 [info] Experiment 'pythonSurveyNotification' is active
+2025-06-13 23:35:24.331 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-13 23:35:24.341 [warning] Dir "/Users/csy4642/projects/arts_at_large_gamedev/.pixi/envs" is not watchable (directory does not exist)
+2025-06-13 23:35:24.412 [info] Starting Environment refresh
+2025-06-13 23:35:24.412 [info] Searching for interpreters in posix paths locator
+2025-06-13 23:35:24.415 [info] Searching for pyenv environments
+2025-06-13 23:35:24.415 [info] Searching for conda environments
+2025-06-13 23:35:24.415 [info] Searching for global virtual environments
+2025-06-13 23:35:24.415 [info] Searching for custom virtual environments
+2025-06-13 23:35:24.418 [info] pyenv is not installed
+2025-06-13 23:35:24.418 [info] Finished searching for pyenv environments: 6 milliseconds
+2025-06-13 23:35:24.418 [info] Finished searching for custom virtual envs: 5 milliseconds
+2025-06-13 23:35:24.421 [info] > conda info --json
+2025-06-13 23:35:24.424 [info] > hatch env show --json
+2025-06-13 23:35:24.424 [info] cwd: .
+2025-06-13 23:35:24.427 [info] > pyenv which python
+2025-06-13 23:35:24.427 [info] cwd: .
+2025-06-13 23:35:24.427 [info] Finished searching for global virtual envs: 14 milliseconds
+2025-06-13 23:35:24.432 [info] Found: /usr/bin/python3 --> /usr/bin/python3
+2025-06-13 23:35:24.439 [info] > ./.venv/bin/python -I ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/get_output_via_markers.py ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/interpreterInfo.py
+2025-06-13 23:35:24.441 [info] Found: /opt/homebrew/bin/python3 --> /opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2025-06-13 23:35:24.442 [info] Found: /opt/homebrew/bin/python3.13 --> /opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2025-06-13 23:35:24.444 [info] Found: /Users/csy4642/projects/arts_at_large_gamedev/.venv/bin/python --> /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2025-06-13 23:35:24.445 [info] Found: /Users/csy4642/projects/arts_at_large_gamedev/.venv/bin/python3 --> /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2025-06-13 23:35:24.445 [info] Found: /Users/csy4642/projects/arts_at_large_gamedev/.venv/bin/python3.13 --> /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/bin/python3.13
+2025-06-13 23:35:24.450 [info] > /usr/bin/python3 -I ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/get_output_via_markers.py ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/interpreterInfo.py
+2025-06-13 23:35:24.457 [info] Finished searching for interpreters in posix paths locator: 45 milliseconds
+2025-06-13 23:35:24.457 [info] Environments refresh paths discovered (event): 46 milliseconds
+2025-06-13 23:35:24.457 [info] Environments refresh paths discovered: 46 milliseconds
+2025-06-13 23:35:24.533 [info] > /opt/homebrew/bin/python3 -I ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/get_output_via_markers.py ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/interpreterInfo.py
+2025-06-13 23:35:25.656 [info] Environments refresh finished (event): 1245 milliseconds
+2025-06-13 23:35:25.659 [info] Environment refresh took 1248 milliseconds
+2025-06-13 23:35:25.663 [info] Python interpreter path: ./.venv/bin/python
+2025-06-13 23:35:25.675 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariables.py
+2025-06-13 23:35:25.675 [info] shell: bash
+2025-06-13 23:35:25.984 [info] > /usr/bin/python3 ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariables.py
+2025-06-13 23:35:25.984 [info] shell: bash
+2025-06-13 23:35:26.193 [info] Setting environment variable MANPATH in collection to :/usr/share/man:/usr/local/share/man:/Applications/kitty.app/Contents/Resources/man: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-13 23:35:26.193 [info] Prepending environment variable PS1 in collection with .venv {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-06-13 23:35:26.193 [info] Prepending environment variable PATH in collection with /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/bash:/Users/csy4642/projects/arts_at_large_gamedev/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-13 23:35:26.193 [info] Send text to terminal: /usr/bin/python3 /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/bash/envVars.txt
+2025-06-13 23:35:26.897 [info] Starting Jedi language server for arts_at_large_gamedev.
+2025-06-13 23:36:34.127 [info] CreateEnv Trigger - Skipping for /Users/csy4642/projects/arts_at_large_gamedev/src/game.py
+2025-06-13 23:36:34.250 [info] Send text to terminal: /Users/csy4642/projects/arts_at_large_gamedev/.venv/bin/python /Users/csy4642/projects/arts_at_large_gamedev/src/game.py
+2025-06-13 23:39:02.310 [info] Discover tests for workspace name: arts_at_large_gamedev - uri: /Users/csy4642/projects/arts_at_large_gamedev/.vscode/settings.json
+2025-06-13 23:41:20.934 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-06-13 23:41:20.934 [info] Experiment 'pythonSurveyNotification' is active
+2025-06-13 23:41:20.934 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-13 23:41:20.934 [warning] Dir "/Users/csy4642/projects/arts_at_large_gamedev/.pixi/envs" is not watchable (directory does not exist)
+2025-06-13 23:41:20.934 [info] Python interpreter path: ./.venv/bin/python
+2025-06-13 23:41:20.937 [info] > pyenv which python
+2025-06-13 23:41:20.937 [info] cwd: .
+2025-06-13 23:41:21.109 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariables.py
+2025-06-13 23:41:21.109 [info] shell: bash
+2025-06-13 23:41:21.293 [info] > /usr/bin/python3 ./bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariables.py
+2025-06-13 23:41:21.293 [info] shell: bash
+2025-06-13 23:41:21.370 [info] Setting environment variable MANPATH in collection to :/usr/share/man:/usr/local/share/man:/Applications/kitty.app/Contents/Resources/man: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-13 23:41:21.370 [info] Prepending environment variable PS1 in collection with .venv {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-06-13 23:41:21.370 [info] Prepending environment variable PATH in collection with /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/bash:/Users/csy4642/projects/arts_at_large_gamedev/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-13 23:41:21.370 [info] Send text to terminal: /usr/bin/python3 /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/bash/envVars.txt
+2025-06-13 23:41:21.716 [info] Starting Jedi language server for arts_at_large_gamedev.
+2025-06-13 23:41:28.748 [info] Discover tests for workspace name: arts_at_large_gamedev - uri: /Users/csy4642/projects/arts_at_large_gamedev/.vscode/settings.json
+2025-06-13 23:42:15.692 [info] Discover tests for workspace name: arts_at_large_gamedev - uri: /Users/csy4642/projects/arts_at_large_gamedev/src/game.py
+2025-06-13 23:42:33.766 [info] Discover tests for workspace name: undefined - uri: /Users/csy4642/projects/arts_at_large_gamedev/bin/code-portable-data/user-data/User/settings.json

@@ -1,0 +1,115 @@
+2025-06-13 23:36:29.650 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:29.819 [info] semantic_tokens_range file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 0:0-4:0
+2025-06-13 23:36:37.508 [info] semantic_tokens_range file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 0:0-4:0
+2025-06-13 23:36:48.536 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:49.218 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "19"
+
+2025-06-13 23:36:52.050 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "21"
+
+2025-06-13 23:36:52.052 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "23"
+
+2025-06-13 23:36:52.052 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "25"
+
+2025-06-13 23:36:52.053 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "24"
+
+2025-06-13 23:36:52.064 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:52.064 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "28"
+
+2025-06-13 23:36:52.065 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "27"
+
+2025-06-13 23:36:52.066 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "22"
+
+2025-06-13 23:36:52.074 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "30"
+
+2025-06-13 23:36:52.079 [info] [Debug - 11:36:52 PM] no definitions found for name "a" of type 'statement' (5:11)
+2025-06-13 23:36:52.082 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "31"
+
+2025-06-13 23:36:52.090 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "32"
+
+2025-06-13 23:36:52.096 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "33"
+
+2025-06-13 23:36:52.192 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "39"
+
+2025-06-13 23:36:53.026 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:55.403 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:55.413 [info] [Debug - 11:36:55 PM] no definitions found for name "win" of type 'statement' (5:4)
+2025-06-13 23:36:57.961 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "66"
+
+2025-06-13 23:36:58.595 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "67"
+
+2025-06-13 23:36:58.595 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:36:58.602 [info] [Debug - 11:36:58 PM] no definitions found for name "win" of type 'statement' (5:4)
+2025-06-13 23:37:01.304 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:01.707 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:01.719 [info] [Debug - 11:37:01 PM] no definitions found for name "ACTIVEEVE" of type 'statement' (5:17)
+2025-06-13 23:37:02.045 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:02.053 [info] [Debug - 11:37:02 PM] no definitions found for name "ACTI" of type 'statement' (5:17)
+2025-06-13 23:37:02.430 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:02.448 [info] [Debug - 11:37:02 PM] no definitions found for name "A" of type 'statement' (5:17)
+2025-06-13 23:37:02.817 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:02.823 [info] [Debug - 11:37:02 PM] no definitions found for name "win" of type 'statement' (5:4)
+2025-06-13 23:37:03.587 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:03.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "90"
+
+2025-06-13 23:37:04.217 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "93"
+
+2025-06-13 23:37:04.218 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:37:04.223 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "96": AttributeError: 'str' object has no attribute 'suffix'
+NoneType: None
+
+2025-06-13 23:37:04.223 [info] [Error - 11:37:04 PM] Request textDocument/semanticTokens/full failed.
+2025-06-13 23:37:04.223 [info]   Message: AttributeError: 'str' object has no attribute 'suffix'
+  Code: -32603 
+[object Object]
+2025-06-13 23:38:16.994 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:16.999 [info] [Debug - 11:38:16 PM] no definitions found for name "win" of type 'statement' (5:4)
+2025-06-13 23:38:19.712 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:19.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "158"
+
+2025-06-13 23:38:19.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "161"
+
+2025-06-13 23:38:19.788 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:19.792 [info] [Debug - 11:38:19 PM] no definitions found for name "py" of type 'statement' (5:10)
+2025-06-13 23:38:20.125 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:20.134 [info] [Debug - 11:38:20 PM] no definitions found for name "win" of type 'statement' (5:4)
+2025-06-13 23:38:20.468 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:20.480 [info] [Debug - 11:38:20 PM] no definitions found for name "w" of type 'statement' (5:4)
+2025-06-13 23:38:20.777 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:38:21.287 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:37.927 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2025-06-13 23:41:37.937 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:39.987 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:40.351 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:40.356 [info] [Debug - 11:41:40 PM] no definitions found for name "p" of type 'statement' (5:4)
+2025-06-13 23:41:41.310 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:41.319 [info] [Debug - 11:41:41 PM] no definitions found for name "pyg" of type 'statement' (5:4)
+2025-06-13 23:41:41.625 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:42.255 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "18"
+
+2025-06-13 23:41:43.171 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "20"
+
+2025-06-13 23:41:43.171 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:47.840 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:49.934 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:49.937 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "45"
+
+2025-06-13 23:41:49.937 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "48"
+
+2025-06-13 23:41:49.941 [info] [Debug - 11:41:49 PM] no definitions found for name "ASYNCBLI" of type 'statement' (5:11)
+2025-06-13 23:41:50.134 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:50.147 [info] [Debug - 11:41:50 PM] no definitions found for name "ASYN" of type 'statement' (5:11)
+2025-06-13 23:41:50.471 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:50.804 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:50.814 [info] [Debug - 11:41:50 PM] no definitions found for name "pyg" of type 'statement' (5:4)
+2025-06-13 23:41:51.139 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:51.147 [info] [Debug - 11:41:51 PM] no definitions found for name "p" of type 'statement' (5:4)
+2025-06-13 23:41:51.491 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:51.842 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:53.511 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:55.837 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:56.984 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:41:56.995 [info] [Debug - 11:41:56 PM] no definitions found for name "s" of type 'statement' (4:17)
+2025-06-13 23:41:57.732 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:47:20.333 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 
+2025-06-13 23:47:22.967 [info] semantic_tokens_full file:///Users/csy4642/projects/arts_at_large_gamedev/src/game.py 

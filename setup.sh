@@ -12,7 +12,7 @@ python3 -m pip install .
 
 # install vscode
 cd ./bin/
-curl -L -o vsc.zip "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
+curl -# -L -o vsc.zip "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal" | cat
 unzip vsc.zip
 
 # https://code.visualstudio.com/docs/editor/portable

@@ -1,0 +1,133 @@
+2025-06-13 23:34:39.794 [info] [main] Log level: Info
+2025-06-13 23:34:39.842 [info] [main] Validating found git in: "/usr/bin/git"
+2025-06-13 23:34:39.895 [info] [main] Using git "2.39.5 (Apple Git-154)" from "/usr/bin/git"
+2025-06-13 23:34:39.895 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 23:34:39.897 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 23:35:24.105 [info] [main] Log level: Info
+2025-06-13 23:35:24.156 [info] [main] Validating found git in: "/usr/bin/git"
+2025-06-13 23:35:24.220 [info] [main] Using git "2.39.5 (Apple Git-154)" from "/usr/bin/git"
+2025-06-13 23:35:24.220 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 23:35:24.262 [info] > git rev-parse --show-toplevel [36ms]
+2025-06-13 23:35:24.310 [info] > git rev-parse --git-dir --git-common-dir [46ms]
+2025-06-13 23:35:24.314 [info] [Model][openRepository] Opened repository (path): /Users/csy4642/projects/arts_at_large_gamedev
+2025-06-13 23:35:24.314 [info] [Model][openRepository] Opened repository (real path): /Users/csy4642/projects/arts_at_large_gamedev
+2025-06-13 23:35:24.425 [info] > git config --get commit.template [107ms]
+2025-06-13 23:35:24.428 [info] > git rev-parse --show-toplevel [109ms]
+2025-06-13 23:35:24.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [52ms]
+2025-06-13 23:35:24.453 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:35:24.465 [info] > git rev-parse --show-toplevel [35ms]
+2025-06-13 23:35:24.478 [info] > git rev-parse refs/remotes/origin/main [25ms]
+2025-06-13 23:35:24.486 [info] > git rev-parse --show-toplevel [21ms]
+2025-06-13 23:35:24.509 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2025-06-13 23:35:24.517 [info] > git rev-parse --show-toplevel [30ms]
+2025-06-13 23:35:24.546 [info] > git rev-parse --show-toplevel [28ms]
+2025-06-13 23:35:24.547 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 23:35:24.952 [info] > git check-ignore -v -z --stdin [128ms]
+2025-06-13 23:35:25.199 [info] > git status -z -uall [720ms]
+2025-06-13 23:35:25.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [28ms]
+2025-06-13 23:35:25.269 [info] > git config --get commit.template [28ms]
+2025-06-13 23:35:25.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [26ms]
+2025-06-13 23:35:25.271 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:35:25.289 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-13 23:35:25.289 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-13 23:35:25.290 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2025-06-13 23:35:25.567 [info] > git reflog main --grep-reflog=branch: Created from *. [277ms]
+2025-06-13 23:35:25.569 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [277ms]
+2025-06-13 23:35:25.576 [info] > git status -z -uall [285ms]
+2025-06-13 23:35:25.624 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [56ms]
+2025-06-13 23:35:25.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [42ms]
+2025-06-13 23:35:25.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [26ms]
+2025-06-13 23:35:25.672 [info] > git config --get --local branch.main.vscode-merge-base [28ms]
+2025-06-13 23:35:25.672 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-13 23:35:25.968 [info] > git reflog main --grep-reflog=branch: Created from *. [295ms]
+2025-06-13 23:35:25.970 [info] > git config --add --local branch.main.vscode-merge-base origin/main [297ms]
+2025-06-13 23:35:26.008 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [38ms]
+2025-06-13 23:35:26.016 [info] > git config --get commit.template [34ms]
+2025-06-13 23:35:26.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [49ms]
+2025-06-13 23:35:26.035 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:35:26.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [32ms]
+2025-06-13 23:35:26.071 [info] > git rev-parse refs/remotes/origin/main [36ms]
+2025-06-13 23:35:26.075 [info] > git config --add --local branch.main.vscode-merge-base origin/main [33ms]
+2025-06-13 23:35:26.076 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] (cancelled)
+2025-06-13 23:35:26.081 [info] > git status -z -uall [9ms] (cancelled)
+2025-06-13 23:35:26.114 [info] > git config --get commit.template [32ms]
+2025-06-13 23:35:26.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [37ms]
+2025-06-13 23:35:26.118 [info] > git merge-base refs/heads/main refs/remotes/origin/main [38ms]
+2025-06-13 23:35:26.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [39ms]
+2025-06-13 23:35:26.122 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:35:26.139 [info] > git config --get --local branch.main.vscode-merge-base [23ms]
+2025-06-13 23:35:26.157 [info] > git rev-parse refs/remotes/origin/main [35ms]
+2025-06-13 23:35:26.169 [info] > git diff --name-status -z --diff-filter=ADMR 099045c7cda5e9dff41f648cd28193143cda5339...refs/remotes/origin/main [50ms]
+2025-06-13 23:35:26.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [58ms]
+2025-06-13 23:35:26.203 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [42ms]
+2025-06-13 23:35:26.435 [info] > git status -z -uall [276ms]
+2025-06-13 23:35:31.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [51ms]
+2025-06-13 23:35:31.410 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:35:31.413 [info] > git config --get commit.template [67ms]
+2025-06-13 23:35:31.428 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2025-06-13 23:35:31.451 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-06-13 23:35:31.698 [info] > git status -z -uall [270ms] (cancelled)
+2025-06-13 23:35:43.662 [info] > git check-ignore -v -z --stdin [25ms]
+2025-06-13 23:35:44.987 [info] > git check-ignore -v -z --stdin [58ms]
+2025-06-13 23:36:28.620 [info] > git check-ignore -v -z --stdin [78ms]
+2025-06-13 23:36:29.545 [info] > git show --textconv :src/game.py [81ms]
+2025-06-13 23:36:29.553 [info] > git ls-files --stage -- src/game.py [88ms]
+2025-06-13 23:36:29.575 [info] > git cat-file -s ae76f4957993d2b34e54b77f00c2fc821cafba89 [21ms]
+2025-06-13 23:36:45.601 [info] > git blame --root --incremental 099045c7cda5e9dff41f648cd28193143cda5339 -- src/game.py [68ms]
+2025-06-13 23:38:16.980 [info] > git ls-files --stage -- src/game.py [70ms]
+2025-06-13 23:38:16.996 [info] > git show --textconv :src/game.py [88ms]
+2025-06-13 23:38:17.024 [info] > git cat-file -s ae76f4957993d2b34e54b77f00c2fc821cafba89 [43ms]
+2025-06-13 23:39:03.151 [info] > git check-ignore -v -z --stdin [107ms]
+2025-06-13 23:39:06.610 [info] > git check-ignore -v -z --stdin [81ms]
+2025-06-13 23:39:07.703 [info] > git check-ignore -v -z --stdin [94ms]
+2025-06-13 23:39:09.260 [info] > git check-ignore -v -z --stdin [83ms]
+2025-06-13 23:39:14.298 [info] > git check-ignore -v -z --stdin [72ms]
+2025-06-13 23:39:25.706 [info] > git check-ignore -v -z --stdin [77ms]
+2025-06-13 23:41:20.935 [info] [main] Log level: Info
+2025-06-13 23:41:21.107 [info] [main] Validating found git in: "/usr/bin/git"
+2025-06-13 23:41:21.272 [info] [main] Using git "2.39.5 (Apple Git-154)" from "/usr/bin/git"
+2025-06-13 23:41:21.273 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 23:41:21.298 [info] > git rev-parse --show-toplevel [23ms]
+2025-06-13 23:41:21.319 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2025-06-13 23:41:21.323 [info] [Model][openRepository] Opened repository (path): /Users/csy4642/projects/arts_at_large_gamedev
+2025-06-13 23:41:21.323 [info] [Model][openRepository] Opened repository (real path): /Users/csy4642/projects/arts_at_large_gamedev
+2025-06-13 23:41:21.365 [info] > git config --get commit.template [27ms]
+2025-06-13 23:41:21.366 [info] > git rev-parse --show-toplevel [27ms]
+2025-06-13 23:41:21.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [23ms]
+2025-06-13 23:41:21.378 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:41:21.386 [info] > git rev-parse --show-toplevel [19ms]
+2025-06-13 23:41:21.397 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2025-06-13 23:41:21.405 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-13 23:41:21.423 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-13 23:41:21.429 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2025-06-13 23:41:21.441 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-13 23:41:21.459 [info] > git rev-parse --show-toplevel [17ms]
+2025-06-13 23:41:21.460 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 23:41:21.708 [info] > git status -z -uall [309ms] (cancelled)
+2025-06-13 23:41:21.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [24ms]
+2025-06-13 23:41:21.732 [info] > git config --get commit.template [23ms]
+2025-06-13 23:41:21.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [21ms]
+2025-06-13 23:41:21.740 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/csy4642/projects/arts_at_large_gamedev/.git/refs/remotes/origin/main'
+2025-06-13 23:41:21.752 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-13 23:41:21.759 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2025-06-13 23:41:22.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [470ms]
+2025-06-13 23:41:22.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [470ms]
+2025-06-13 23:41:22.291 [info] > git status -z -uall [532ms] (cancelled)
+2025-06-13 23:41:22.812 [info] > git check-ignore -v -z --stdin [583ms]
+2025-06-13 23:41:22.812 [info] > git merge-base refs/heads/main refs/remotes/origin/main [584ms]
+2025-06-13 23:41:22.816 [info] > git merge-base refs/heads/main refs/remotes/origin/main [526ms]
+2025-06-13 23:41:22.874 [info] > git diff --name-status -z --diff-filter=ADMR 099045c7cda5e9dff41f648cd28193143cda5339...refs/remotes/origin/main [56ms]
+2025-06-13 23:41:22.876 [info] > git diff --name-status -z --diff-filter=ADMR 099045c7cda5e9dff41f648cd28193143cda5339...refs/remotes/origin/main [62ms]
+2025-06-13 23:41:35.349 [info] > git check-ignore -v -z --stdin [74ms]
+2025-06-13 23:41:37.906 [info] > git ls-files --stage -- src/game.py [64ms]
+2025-06-13 23:41:37.929 [info] > git show --textconv :src/game.py [90ms]
+2025-06-13 23:41:37.979 [info] > git cat-file -s ae76f4957993d2b34e54b77f00c2fc821cafba89 [64ms]
+2025-06-13 23:41:38.017 [info] > git blame --root --incremental 099045c7cda5e9dff41f648cd28193143cda5339 -- src/game.py [33ms]
+2025-06-13 23:42:25.844 [info] > git check-ignore -v -z --stdin [22ms]
+2025-06-13 23:42:27.123 [info] > git check-ignore -v -z --stdin [65ms]
+2025-06-13 23:47:20.304 [info] > git ls-files --stage -- src/game.py [57ms]
+2025-06-13 23:47:20.316 [info] > git show --textconv :src/game.py [72ms]
+2025-06-13 23:47:20.340 [info] > git cat-file -s ae76f4957993d2b34e54b77f00c2fc821cafba89 [36ms]
+2025-06-13 23:47:22.948 [info] > git show --textconv :src/game.py [77ms]
+2025-06-13 23:47:22.949 [info] > git ls-files --stage -- src/game.py [75ms]
+2025-06-13 23:47:22.980 [info] > git cat-file -s ae76f4957993d2b34e54b77f00c2fc821cafba89 [31ms]
